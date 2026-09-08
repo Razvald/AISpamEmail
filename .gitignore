@@ -12,7 +12,7 @@
 *.env
 
 # Email files
-*.eml
+data/*.eml
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
