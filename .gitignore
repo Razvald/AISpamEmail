@@ -11,6 +11,9 @@
 *.sln.docstates
 *.env
 
+# Email files
+.eml
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
