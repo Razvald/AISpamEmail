@@ -3,6 +3,11 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Personal
+*.pdf
+!AI-_assisted spam campaigns.pdf
+*.eml
+
 # User-specific files
 *.rsuser
 *.suo
@@ -10,9 +15,6 @@
 *.userosscache
 *.sln.docstates
 *.env
-
-# Email files
-data/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -89,6 +91,7 @@ BenchmarkDotNet.Artifacts/
 project.lock.json
 project.fragment.lock.json
 artifacts/
+.artifacts/
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
@@ -429,5 +432,6 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
-*.zip
-*.pdf
+
+# Official VS Code C# Dev Kit Extension exclusion
+#*.lscache

@@ -1,0 +1,20 @@
+У меня есть корень репозитория 
+razvald@razvald:~/My_Folder/Проект 2 курса$ tree
+.
+├── AI-_assisted spam campaigns.pdf
+├── data
+│   ├── Boost your workflow_ Connect Lumin to your favorite tools.eml
+│   ├── [Атмосфера] Приглашаем на кейс-чемпионат_ классные призы и реальные возможности для старта карьеры.eml
+│   └── Добро пожаловать в Сфера SaaS!.eml
+├── README.md
+└── README.pdf
+
+2 directories, 6 files
+
+Мне нужно добавить файлы eml в гитигнор, но не получается, как сделать
+.gitignore
+
+# Personal
+*.pdf
+!AI-_assisted spam campaigns.pdf
+*.eml
